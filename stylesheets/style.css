@@ -1,0 +1,164 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  font-weight: normal;
+  font-style: normal; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+/* remember to define focus styles! */
+:focus {
+  outline: 0; }
+
+/* remember to highlight inserts somehow! */
+ins {
+  text-decoration: none; }
+
+del {
+  text-decoration: line-through; }
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* responsive stuff */
+img {
+  max-width: 100%;
+  height: auto; }
+
+a {
+  text-decoration: none; }
+
+/* clearfix */
+.cf:before,
+.cf:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */ }
+
+.cf:after {
+  clear: both; }
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+  *zoom: 1; }
+
+/* COLORS--------------*/
+/* FONTS--------------*/
+/* MIXINS ---------------*/
+/*	@extend %vertical-align; */
+html {
+  font-size: 62.5%; }
+
+body {
+  background: #000;
+  font-family: "Maven Pro", Helvetica, sans-serif;
+  font-size: 20px;
+  font-size: 2rem;
+  color: #fff;
+  line-height: 1.3;
+  border-top: 10px solid #c20831; }
+
+p a {
+  color: #fff;
+  text-decoration: none; }
+  p a:hover {
+    color: #c20831; }
+
+::selection {
+  background: rgba(194, 8, 49, 0.6);
+  color: white; }
+
+.wrapper {
+  margin-top: 100px; }
+
+.col-s-12 {
+  width: 96.774194%;
+  margin: 0 auto;
+  max-width: 600px; }
+
+.center {
+  text-align: center; }
+
+header img {
+  width: 80%;
+  margin-bottom: 30px; }
+
+header p {
+  font-size: 24px;
+  font-size: 2.4rem; }
+
+.content {
+  margin-top: 50px; }
+
+.networks li {
+  font-size: 50px;
+  font-size: 5rem;
+  margin: 0 15px;
+  display: inline-block; }
+
+.networks li a {
+  color: #fff;
+  text-decoration: none; }
+  .networks li a:hover {
+    color: #c20831; }
+
+@media all and (min-width: 769px) {
+  body {
+    font-size: 20px;
+    font-size: 2rem;
+    line-height: 1.3; }
+
+  .col-l-12 {
+    width: 98.148148%;
+    /* 1060/1080*/
+    margin: auto; }
+
+  .col-l-9 {
+    width: 73.148148148%;
+    /* 790/1080 */
+    margin: 0 0.925925926%;
+    float: left; }
+
+  .col-l-6 {
+    width: 48.148148148%;
+    /* 520/1080*/
+    margin: 0 0.925925926%;
+    float: left; }
+
+  .col-l-4 {
+    width: 31.481481481%;
+    /* /1080*/
+    margin: 0 0.925925926%;
+    float: left; }
+
+  .col-l-3 {
+    width: 23.148148148%;
+    /* 250/1080*/
+    margin: 0 0.925925926%;
+    float: left; } }

@@ -1,0 +1,70 @@
+html{
+	font-size: 62.5%;
+}
+
+body{
+	background: $black /*url("../img/background.jpg") no-repeat;
+	background-position: center top; 
+	background-size: cover*/;
+	font-family: $mainfont;
+	font-size: 20px; 
+	font-size: 2rem;
+	color: $white;
+	line-height: 1.3;
+	border-top: 10px solid $red;
+}
+p a{
+	color: $white;
+	text-decoration: none;
+	&:hover{
+		color: $red;
+	}
+}
+
+::selection {
+	background: rgba($red, 0.6);
+	color: white;
+}
+
+.wrapper{
+	margin-top: 100px;
+}
+
+.col-s-12{
+	width: 96.774194%;
+	margin: 0 auto;
+	max-width: 600px;
+}
+
+.center{
+	text-align: center;
+}
+
+header img{
+	width: 80%;
+	margin-bottom: 30px;
+}
+
+header p{
+	font-size: 24px;
+	font-size: 2.4rem;
+}
+
+.content{
+	margin-top: 50px;
+}
+
+.networks li{
+	font-size: 50px;
+	font-size: 5rem;
+	margin: 0 15px;
+	display: inline-block;
+}
+
+.networks li a{
+	color: $white;
+	text-decoration: none;
+	&:hover{
+		color: $red;
+	}
+}
