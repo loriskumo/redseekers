@@ -91,12 +91,18 @@ h1 {
 
 p a {
   color: #fff;
-  text-decoration: none;
-  padding-bottom: 2px;
-  border-bottom: 1px solid #fff; }
+  text-decoration: none; }
   p a:hover {
-    color: #c20831;
-    border-bottom-color: #c20831; }
+    color: #c20831; }
+
+p a.button {
+  background: #c20831;
+  display: inline-block;
+  padding: 10px 15px;
+  border-radius: 5px; }
+  p a.button:hover {
+    background: #fff;
+    color: #c20831; }
 
 p strong {
   font-weight: bold; }

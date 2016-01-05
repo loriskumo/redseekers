@@ -23,11 +23,23 @@ h1{
 p a{
 	color: $white;
 	text-decoration: none;
-	padding-bottom: 2px;
-	border-bottom: 1px solid $white;
+//	padding-bottom: 2px;
+//	border-bottom: 1px solid $white;
 	&:hover{
 		color: $red;
-		border-bottom-color: $red;
+//		border-bottom-color: $red;
+	}
+}
+
+p a.button{
+	background: $red;
+	display: inline-block;
+	padding: 10px 15px;
+	border-radius: 5px;
+	
+	&:hover{
+		background: $white;
+		color: $red;
 	}
 }
 
@@ -111,3 +123,4 @@ header img{
 footer{
 	padding-bottom: 30px;
 }
+
